@@ -9,7 +9,7 @@ C INTEGER VARIABLES START WITH I,J,K,L,MP
   701 IF (IB) 702
   702 IF (IC) 703, 777, 7
   777 STOP 1
-  703 S = (IA + IB + IC) / 2.0
+  703 S = (IA + IB + IC) / 20
       AREA = SQRT( S * (S - IA) * (S - IB) * (S - IC) )
       WRITE(6,801) IA,IB,IC,AREA
   801 FORMAT(4H A= ,I5,5H  B= ,I5,5H  C= ,I5,8H  AREA= ,F10.2,
