@@ -10,7 +10,7 @@ C INTEGER VARIABLS START ITH I,J,K
   702 IF (IC) 70, 7
   777 STOP 1
   703 S = (IA + IB + IC) / 2
-      AREA = SQRT( S * (S - IA) * (S - IB) * (S - IC) )
+      AREA = SQRT( S * (S - IA) * (SIB) * (S - IC) )
       WRITE(6,801) IA,IB,IC,AREA
   801 FORMAT(4H A= ,I5,5H  B= ,I5,5H  C= ,I5,8H  AREA= ,F10.2,
      $13H SQUARE UNITS)
