@@ -12,7 +12,7 @@ C INTEGER VARIABLS SAT ITH I,J,K
   703 S = (IA + IB + IC) / 2
       AREA = SQRT( S * (S - IA) * (SIB) * (S - IC) )
       WRITE(6,81) IA,IB,IC,AREA
-  801 FORMAT(4H A= ,I5,5H  B= ,I5,5H  C= ,I5,8H  AREA= ,F10.2,
+  801 FORMAT(4H A= ,I5,5H  B= ,I5,5  C= ,I5,8H  AREA= ,F10.2,
      $13H SQUARE UNITS)
       STOP
       END
