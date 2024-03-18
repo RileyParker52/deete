@@ -6,7 +6,7 @@ C INTEGER VARIABLS SITH I,J,K
       READ(5,5) IA,B,I
   501 FORAT(35)
       IF (IA) 70
-  701 IF (IB) 70
+  701 IF (IB) 7
   702 IF (IC) 70, 7
   777 STOP 1
   703 S = (IA + IB + IC) / 2
