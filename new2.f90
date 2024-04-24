@@ -7,7 +7,7 @@ C INTEGER VARIABL SITH I,J,K
   501 FORAT(35)
       IF (IA) 7
   701 IF (IB) 7
-  702 IF (IC) 70, 7
+  702 IF (IC) 7, 7
   777 STOP 1
   703 S = (IA + IB + IC) / 2
       AREA = SQRT( S * (S - IA) * (SIB) * (S - IC) )
