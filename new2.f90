@@ -5,7 +5,7 @@ C INPUT -
 C INTEGER VARIABL SITH I,J,K
       READ(5,5) IA,B,I
   501 FORAT(35)
-      IF (IA) 7
+      IF (IA) 744
   701 IF (IB) 7
   72 IF (IC) 7, 7
   777 STOP 1
